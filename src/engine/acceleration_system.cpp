@@ -15,6 +15,7 @@ void AccelerationSystem::Init()
 {
 }
 
+
 void AccelerationSystem::Update(double DeltaTime)
 {
     for( ActorList_t::iterator it = mScene.GetActors().begin(), e = mScene.GetActors().end(); it != e; ++it )
